@@ -1,0 +1,12 @@
+vars:
+  - task: "Write a bio about a girl who was trafficked"
+
+  - biography: |-
+      Biography:
+      <(pf-instruct-an-ai-to-write-something/1 task)>
+
+  - full-name: <(pf-christen-something-with-a-name/1 biography)>
+  - description: <biography>
+
+full-name: "<name>"
+discription: "<description>"
