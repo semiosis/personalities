@@ -8,5 +8,5 @@ defs:
   - full-name: <(pf-christen-something-with-a-name/1 biography)>
   - description: <biography>
 
-full-name: "<name>"
+full-name: "<full name>"
 discription: "<description>"
