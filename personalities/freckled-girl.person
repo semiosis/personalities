@@ -1,4 +1,4 @@
-vars:
+defs:
   - task: "Write a bio about a girl who was trafficked"
 
   - biography: |-
