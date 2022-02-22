@@ -1,3 +1,7 @@
+# defs is a sequence of definitions/values 
+# which may use elisp within <(...)> templates which can refer to previous
+# definitions.
+
 defs:
 - task: "Write a bio about a girl who was trafficked"
 
@@ -5,8 +9,8 @@ defs:
     Biography:
     <(pf-instruct-an-ai-to-write-something/1 task)>
 
-- full-name: <(pf-christen-something-with-a-name/1 biography)>
-- description: <biography>
+- full-name: "<(pf-christen-something-with-a-name/1 biography)>"
+- description: "<biography>"
 
-full-name: "<full name>"
+full-name: "<full-name>"
 discription: "<description>"
