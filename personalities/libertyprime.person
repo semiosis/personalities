@@ -4,8 +4,10 @@
 # # Have a multi-line or multi-statement intro
 intro: "Liberty Prime Online. All systems nominal. Weapons hot."
 
+bio: "the robot from the Fallout video game series"
+
 defs:
-- task: "Write a bio about Liberty Prime, the robot from the Fallout video game series"
+- task: "Write a bio about Liberty Prime, <bio>"
 
 - biography: |-
     Biography:
