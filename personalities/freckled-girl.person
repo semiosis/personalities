@@ -12,5 +12,6 @@ defs:
 - full-name: "<(pf-christen-something-with-a-name/1 biography)>"
 - description: "<biography>"
 
+# Once defs has run, the full name and description run the template
 full-name: "<full-name>"
-discription: "<description>"
+description: "<description>"
